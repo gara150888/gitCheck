@@ -1,0 +1,54 @@
+{
+  "roles": {
+    "database": {
+      "description": "Database schema and migrations",
+      "worktreePrefix": "feature-db",
+      "branches": {
+        "prefix": "feature/db"
+      },
+      "skills": [
+        "database-expert",
+        "postgres-pro"
+      ],
+      "mcpServers": [
+        "postgres"
+      ]
+    },
+    "api": {
+      "description": "API endpoints and business logic",
+      "worktreePrefix": "feature-api",
+      "branches": {
+        "prefix": "feature/api"
+      },
+      "skills": [
+        "api-design",
+        "express-expert"
+      ],
+      "mcpServers": []
+    },
+    "frontend": {
+      "description": "UI components and styling",
+      "worktreePrefix": "feature-ui",
+      "branches": {
+        "prefix": "feature/ui"
+      },
+      "skills": [
+        "react-expert",
+        "tailwind-master"
+      ],
+      "mcpServers": []
+    },
+    "testing": {
+      "description": "Unit and integration tests",
+      "worktreePrefix": "feature-tests",
+      "branches": {
+        "prefix": "feature/tests"
+      },
+      "skills": [
+        "testing-expert",
+        "jest-master"
+      ],
+      "mcpServers": []
+    }
+  }
+}
